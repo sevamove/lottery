@@ -16,7 +16,7 @@
         "bracketSpacing": false,
         "explicitTypes": "always",
         "useTabs": false,
-        "compiler": "0.8.19"
+        "compiler": "0.8.29"
       }
     }
   ]
