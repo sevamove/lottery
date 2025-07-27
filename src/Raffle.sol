@@ -6,7 +6,6 @@ import {RaffleErrors} from "./errors/RaffleErrors.sol";
 import {RaffleInterface} from "./interfaces/RaffleInterface.sol";
 import {Enterable} from "./contracts/Enterable.sol";
 import {RaffleContructorParams} from "./structs/RaffleContructorParams.sol";
-import {RaffleAttrs} from "./structs/RaffleAttrs.sol";
 import {Playable} from "./contracts/Playable.sol";
 import {
     PlayableConstructorParams
@@ -14,6 +13,10 @@ import {
 import {
     EnterableConstructorParams
 } from "./structs/EnterableConstructorParams.sol";
+import {
+    StateableConstructorParams
+} from "./structs/StateableConstructorParams.sol";
+import {Stateable} from "./contracts/Stateable.sol";
 
 contract Raffle is Enterable, Playable, RaffleInterface {
     constructor(
