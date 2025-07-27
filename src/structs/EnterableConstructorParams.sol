@@ -5,5 +5,4 @@ import {StateableEnums} from "../enums/StateableEnums.sol";
 
 struct EnterableConstructorParams {
     uint256 entryFee;
-    StateableEnums.State state;
 }
